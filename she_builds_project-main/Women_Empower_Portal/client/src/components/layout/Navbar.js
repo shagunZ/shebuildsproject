@@ -20,7 +20,6 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     window.location.href = 'https://example.com/1234';
     return null;
 }}/> */}
-
       </li>
       <li>
         <Link to="/posts">Posts</Link>
