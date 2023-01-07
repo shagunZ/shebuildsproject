@@ -10,7 +10,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const authLinks = (
     <ul>
       <li>
-        <Link to="/profiles">Developers</Link>
+        <Link to="/profiles">Investor's</Link>
       </li>
       <li>
         {/* <Link to="http://localhost:3000/signup">Jobs&Updates</Link>
